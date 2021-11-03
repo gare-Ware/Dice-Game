@@ -117,11 +117,11 @@ function rollDice(number, dbl) {
     if (player1Score >= 20) {
         message.textContent = "P1 WINS 🥳"
         showResetButton()
-        setTimeout(function () {celebration.style.display = "block"}, 500)
+        celebration.style.display = "block"
     }  else if (player2Score >= 20) {
         message.textContent = "P2 WINS 🎉"
         showResetButton()
-        setTimeout(function () {celebration.style.display = "block"}, 500)
+        celebration.style.display = "block"
     }
     player1Turn = !player1Turn
 }
