@@ -168,6 +168,53 @@ button:focus {
     animation: nothingWiggle 500ms;
 }
 
+@media (max-width: 375px){ 
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #353535;
+        padding: 30px 30px;
+        border-radius: 0;
+        position: relative;
+        top: 0%;
+        transform: translateY(0%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #message {
+        font-size: 35px;
+        letter-spacing: 6px;
+    }
+
+    .players {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+        /* border: solid red; */
+    }    
+
+    #player1, #player2 {
+        padding: 20px 0px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: solid red; */
+    }
+
+    button {
+        width: 95%;
+    }
+}
+
 @keyframes initialBounce {
     0%, 20%, 50% {transform: translateY(0);} 
     10% {transform: translateY(-40px) rotate(0.01turn);} 
