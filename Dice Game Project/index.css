@@ -172,6 +172,10 @@ button:focus {
     * {
         box-sizing: border-box;
     }
+
+    body {
+        background-color: #353535;
+    }
     
     .container {
         width: 100%;
@@ -182,6 +186,7 @@ button:focus {
         position: relative;
         top: 0%;
         transform: translateY(0%);
+        box-shadow: none;
         display: flex;
         flex-direction: column;
         justify-content: center;
