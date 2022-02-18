@@ -16,44 +16,44 @@ const celebration = document.getElementById("celebration")
 function diceImages(playerDice, diceRoll, dbl) {
     if (dbl === 2){
         if (diceRoll === 2){
-            playerDice.style.backgroundImage = "url('dice/1.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/1.png')"
         }
         if (diceRoll === 4){
-            playerDice.style.backgroundImage = "url('dice/2.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/2.png')"
         }
         if (diceRoll === 6){
-            playerDice.style.backgroundImage = "url('dice/3.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/3.png')"
         }
         if (diceRoll === 8){
-            playerDice.style.backgroundImage = "url('dice/4.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/4.png')"
         }
         if (diceRoll === 10){
-            playerDice.style.backgroundImage = "url('dice/5.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/5.png')"
         }
         if (diceRoll === 12){
-            playerDice.style.backgroundImage = "url('dice/6.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/6.png')"
         }
     } else {
         if (diceRoll === 0){
-            playerDice.style.backgroundImage = "url('dice/0.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/0.png')"
         }
         if (diceRoll === 1){
-            playerDice.style.backgroundImage = "url('dice/1.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/1.png')"
         }
         if (diceRoll === 2){
-            playerDice.style.backgroundImage = "url('dice/2.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/2.png')"
         }
         if (diceRoll === 3){
-            playerDice.style.backgroundImage = "url('dice/3.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/3.png')"
         }
         if (diceRoll === 4){
-            playerDice.style.backgroundImage = "url('dice/4.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/4.png')"
         }
         if (diceRoll === 5){
-            playerDice.style.backgroundImage = "url('dice/5.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/5.png')"
         }
         if (diceRoll === 6){
-            playerDice.style.backgroundImage = "url('dice/6.png')"
+            playerDice.style.backgroundImage = "url('dice-imgs/6.png')"
         }
     }
 }
