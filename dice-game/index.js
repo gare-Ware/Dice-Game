@@ -11,7 +11,6 @@ const message = document.getElementById("message")
 const startBtn = document.getElementById("startBtn")
 const rollBtn = document.getElementById("rollBtn")
 const resetBtn = document.getElementById("resetBtn")
-const celebration = document.getElementById("celebration")
 
 function diceImages(playerDice, diceRoll, dbl) {
     if (dbl === 2){
@@ -117,11 +116,11 @@ function rollDice(number, dbl) {
     if (player1Score >= 20) {
         message.textContent = "P1 WINS 🥳"
         showResetButton()
-        celebration.style.display = "block"
+        confetti.start()
     }  else if (player2Score >= 20) {
         message.textContent = "P2 WINS 🎉"
         showResetButton()
-        celebration.style.display = "block"
+        confetti.start()
     }
     player1Turn = !player1Turn
 }
@@ -204,5 +203,5 @@ resetBtn.addEventListener("click", function(){
     player1.classList.remove("dbl")
     player1Dice.classList.remove("initialBounce")
     player2Dice.classList.remove("initialBounce")
-    celebration.style.display = "none"
+    confetti.stop()
 })

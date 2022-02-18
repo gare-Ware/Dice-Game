@@ -97,15 +97,6 @@ button {
     width: 85%;
 }
 
-#celebration {
-    display: none;
-    margin: 0 auto;
-    position: absolute;
-    top: 1%;
-    right: 1%;
-    pointer-events: none;
-}
-
 #riskBtn {
     display: none;
     background: #F0E68C;
