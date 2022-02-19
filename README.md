@@ -6,4 +6,4 @@ We were guided through creating the foundational code of the game.
 
 I then built on the code after finishing the lesson, including their feature suggestions as well as mine.
 
-[gsdicegame.netlify.app](https://gsdicegame.netlify.app/)
+[gk-dicegame.netlify.app](https://gk-dicegame.netlify.app/)
