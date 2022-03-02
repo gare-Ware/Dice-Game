@@ -1,5 +1,5 @@
 # Dice-Game
 
-This was a project completed as a part of the SCRIMBA Frontend Developer Career Path.
+A simple animated dice roll game.
 
 [gk-dicegame.netlify.app](https://gk-dicegame.netlify.app/)
